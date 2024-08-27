@@ -17,6 +17,9 @@
 		3815F0752C6B8DA20023F804 /* tableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815F0742C6B8DA20023F804 /* tableviewTests.swift */; };
 		3815F07F2C6B8DA20023F804 /* tableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815F07E2C6B8DA20023F804 /* tableviewUITests.swift */; };
 		3815F0812C6B8DA20023F804 /* tableviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815F0802C6B8DA20023F804 /* tableviewUITestsLaunchTests.swift */; };
+		3815F08E2C6E414C0023F804 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815F08D2C6E414C0023F804 /* TableViewController.swift */; };
+		3815F0902C737BB30023F804 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815F08F2C737BB30023F804 /* person.swift */; };
+		3815F0922C7624670023F804 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815F0912C7624670023F804 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		3815F07A2C6B8DA20023F804 /* tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3815F07E2C6B8DA20023F804 /* tableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewUITests.swift; sourceTree = "<group>"; };
 		3815F0802C6B8DA20023F804 /* tableviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3815F08D2C6E414C0023F804 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3815F08F2C737BB30023F804 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		3815F0912C7624670023F804 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		3815F04E2C6B8D9F0023F804 = {
 			isa = PBXGroup;
 			children = (
+				3815F0912C7624670023F804 /* CustomTableViewCell.swift */,
 				3815F0592C6B8D9F0023F804 /* tableview */,
 				3815F0732C6B8DA20023F804 /* tableviewTests */,
 				3815F07D2C6B8DA20023F804 /* tableviewUITests */,
@@ -104,6 +111,8 @@
 				3815F05A2C6B8D9F0023F804 /* AppDelegate.swift */,
 				3815F05C2C6B8D9F0023F804 /* SceneDelegate.swift */,
 				3815F05E2C6B8D9F0023F804 /* ViewController.swift */,
+				3815F08D2C6E414C0023F804 /* TableViewController.swift */,
+				3815F08F2C737BB30023F804 /* person.swift */,
 				3815F0602C6B8D9F0023F804 /* Main.storyboard */,
 				3815F0662C6B8DA20023F804 /* Assets.xcassets */,
 				3815F0682C6B8DA20023F804 /* LaunchScreen.storyboard */,
@@ -264,6 +273,9 @@
 				3815F05F2C6B8D9F0023F804 /* ViewController.swift in Sources */,
 				3815F0652C6B8D9F0023F804 /* tableview.xcdatamodeld in Sources */,
 				3815F05B2C6B8D9F0023F804 /* AppDelegate.swift in Sources */,
+				3815F0922C7624670023F804 /* CustomTableViewCell.swift in Sources */,
+				3815F08E2C6E414C0023F804 /* TableViewController.swift in Sources */,
+				3815F0902C737BB30023F804 /* person.swift in Sources */,
 				3815F05D2C6B8D9F0023F804 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

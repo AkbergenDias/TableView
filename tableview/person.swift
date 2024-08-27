@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Person {
+    var name = ""
+    var surname = ""
+    var imagename = ""
+}
